@@ -19,11 +19,11 @@ Nevertheless, these slides explain the concept of text editors, along with the c
 
 The slides set this day up as follows:
 
--Introductions 
--Show learners how to create a plan and a wireframe for their website
--Show learners how to paste basic HTML and CSS into Thimble
--Review how browsers interpret HTML to make websites
--Teaches the basic syntax of HTML and CSS
--Allows for lots of work time, so learners can complete their projects.
+* Introductions 
+* Show learners how to create a plan and a wireframe for their website
+* Show learners how to paste basic HTML and CSS into Thimble
+* Review how browsers interpret HTML to make websites
+* Teaches the basic syntax of HTML and CSS
+* Allows for some games and lots of work time, so learners can complete their projects.
 
 This is my own teaching plan (using many of the resources provided by Kathryn from LLC), so please feel free to fork and edit these slides however you see fit!
