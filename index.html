@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ladies Learning Code</title>
+    <!-- Don't alter slideshow.css, CSSS slide deck needs it to work -->
+    <link rel="stylesheet" href="framework/css/slideshow.css">
+
+    <!-- Theme-specific styles -->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Pacifico|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="framework/css/font-awesome.css">
+    <link rel="stylesheet" href="framework/css/highlightjs-themes/monokai.css">
+    <link rel="stylesheet" href="framework/css/theme-llc.css">
+    <link rel="shortcut icon" href="framework/img/favicon.ico"> 
+
+    <!-- Workshop-specific styles -->
+    <link rel="stylesheet" href="framework/css/workshop.css">
+
+    <!-- Takes care of CSS3 prefixes! -->
+    <script src="framework/scripts/prefixfree.min.js"></script>
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body data-duration="360">
+    
+    <!-- opens all links in a new window -->
+    <base target="_blank">
+
+    <!-- First/Intro slide -->
+    <header class="intro slide">
+        <img class="logo" src="framework/img/logo-llc-white.png">
+        <div class="info">
+            <h1>
+                <span class="title-bg">Girls Learning Code</span><br>
+                <!-- second line if needed -->
+                <span class="title-bg">Intro to HTML &amp; CSS</span>
+            </h1>
+            <h2><span>with</span> Sally Poulsen</h2>
+
+            <img class="instructor-img" src="framework/img/profile-sally.jpg" alt="instructor name">
+            <ul>
+                <li><i class="fa fa-envelope"></i><a href="mailto:hello@sallypoulsen.com">hello@sallypoulsen.com</li>
+                <li><i class="fa fa-desktop"></i><a href="http://sallypoulsen.com">sallypoulsen.com</a></li>
+                <li><i class="fa fa-twitter"></i><a href="http://twitter.com/sallypoulsen">@sallypoulsen</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!--SLIDE 1-->
+        <section class="slide title">
+            <h1>The Master Plan</h1>
+        </section>
+        <!--SLIDE 2-->
+        <section class="slide">
+            <h2>Today's Schedule</h2>
+            <h3>10:00 - 10:30 a.m.</h3>
+            <p>Nametags &amp; Introductions!</p>
+            <h3>10:30 - 11:00 a.m.</h3> 
+            <p>Talking about how to plan your website's code and content!</p>
+            <h3>11:00 - 11:30 a.m.</h3> 
+            <p>Work on your wireframes!</p>
+            <h3>11:30 - 12:00 p.m.</h3> 
+            <p>Talking about HTML, CSS &amp; how websites work!</p>
+            <h3>12:00 - 1:00 p.m. </h3> 
+            <p>Lunch!</p>
+        </section>
+          <!--SLIDE 3-->
+        <section class="slide">
+            <h2>Today's Schedule (cont)</h2>
+            <h3>1:00 - 1:30 p.m.</h3>
+            <p>HTML, CSS &amp; Website review</p>
+            <h3>1:30 - 2:30 p.m.</h3> 
+            <p>We finally start writing some code!</p>
+            <h3>2:30 - End of Day</h3> 
+            <p>Build our amazing websites!</p>
+        </section>
+        <!--SLIDE 4-->
+        <section class="slide">
+            <h2>Introductions</h2>
+            <p>We are going to do some research on each other!</p> 
+            <p>Ask your partner these three interview questions, and, if you're comfortable sharing with the group, let us know about your partner!</p> 
+            <p>(If you're feeling shy, that's okay! Just write your partner's answers down and give them to Sally to read).</p>
+            <ol>
+                <li>What is your name?</li>
+                <li>Who is your favorite singer or band?</li>
+                <li>What website do you visit most often?</li>
+            </ol>
+        </section>
+        <!--SLIDE 5-->
+        <section class="slide title">
+            <h1>Making a Website</h1>
+            <h2>The Tools of the Trade</h2>
+        </section>
+         <!--SLIDE 6-->
+        <section class="slide">
+            <h2>What We'll Be Working With</h2>
+            <p>When we make a website, there are a few tools we need to have!</p>
+            <img height="150" src="framework/img/web-strategy.jpg"/>
+            <img height="150" src="framework/img/Paper-and-pens1373.jpg"/>
+            <img height="150" src="framework/img/sublime.png"/>
+            <img height="150" src="framework/img/web-browsers.jpg"/>
+            <ul>
+                <li>Some basic information about what we're making</li>
+                <li>Paper and pens for drawing a work plan</li>
+                <li>A text editor</li>
+                <li>A web browser</li>
+            </ul> 
+         
+        </section>
+        <!--SLIDE 7-->
+        <section class="slide">
+            <h2>Step One: Basic Information</h2>
+            <img src="framework/img/plan.jpg"/>
+            <p>For our purposes today, we are going to <strong>invent a business</strong> that we will build a website for!</p>
+            <p>Since you can't do great work without a great plan, let's take 5-10 minutes and think about our business and its website. Work with your partner to answer these questions:</p>
+            <ol>
+                <li>What will my business be? (Give both a name and a description)</li>
+                <li>What do I want to make sure people learn about my business from my website?</li>
+                <li>Do I want people to contact me through my website?</li>
+            </ol>
+            <p>You can jot your answers down on a piece of paper, or in a Google Document if you prefer! Whatever is easiest for you.</p>
+        </section>
+
+          <!--SLIDE 7-->
+        <section class="slide">
+            <h2>Step One: Basic Information</h2>
+            <p>If you'd like an example of what you might want to include in your plan, here's a photo of my project plan:</p>
+           <img width="500" src="framework/img/dog-saloon-plan.jpg" style="float: left;"/>
+           <div style="padding-left: 40px;width: 600px; float:left;">
+                <strong>What will my business be?</strong>
+                <p>THE DOG SALOON: An Old West-themed Dog Groomer</p>
+                <strong>What do I want to make sure people learn about my business from my website?</strong>
+                <p>What makes me a good groomer - Which services I offer - How much my services cost - How to Make an Appointment</p>
+                <strong>Do I want people to contact me?</strong>
+                <p>Yes, I want them to email me at hello@sallypoulsen.com</p>
+           </div>
+        </section>
+
+            <!--SLIDE 7-->
+        <section class="slide">
+            <h2>Step Two: Work Plan &amp; Wireframe</h2>
+            <p>When web professionals build a website, they have to do what you just did, which is plan out what information will go in the website.</p>
+            <p>Next, they plan where to put that information in their page layout. They do this by making a <strong>wireframe</strong>, or a rough sketch of their page.</p>
+            <img src="framework/img/wireframe.jpg"/>
+        </section>
+
+
+
+
+                <!--SLIDE 7-->
+        <section class="slide">
+            <h2>WIREFRAME TIME!</h2>
+            <p>Let's take 15 minutes and draw a quick wireframe of our website.</p>
+            <p>When I make a wireframe, I like to think of my website as being kind of like a newspaper. They have a title, some headlines, some text, and some images.</p>
+            <img src="framework/img/newspaper.jpg" height="400"/>
+            <img src="framework/img/dog-saloon-wireframe.jpg" height="400"/>
+        </section>
+
+    
+
+
+                 <!--SLIDE 7-->
+        <section class="slide">
+            <h2>Step Three: Get a Text Editor</h2>
+            <p>We're going to talk about some theory, but first, we need somewhere to put our code when we write it!</p>
+            <p>Let's go to <a href="http://thimble.webmaker.org" target="_blank">Mozilla's Thimble Websitemaker</a> and sign into our accounts (or sign up if you don't already have one).</p>
+        </section>
+
+        <section class="slide">
+            <h2>Text Editors</h2>
+            <img src="framework/img/sublime.png" />
+            <p>To write HTML, we use a tool called a <strong>text editor</strong>. A text editor is a lot like Microsoft Word, or iTunes, or iMovie – it’s a piece of software that does a specific job.</p>
+            <p>A text editor usually lives on your computer, but sometimes designers and developers work in cloud-based editors. <strong>Thimble</strong> is a simple version of that. </p>
+            <p>Working in the cloud is a great option because we don’t have to download a bunch of stuff to our computers – and we can also work on our websites wherever we are, at home or at school.</p>
+        </section>
+
+                 <!--SLIDE 7-->
+        <section class="slide">
+            <h2>Step Four: Get a Browser</h2>
+            <img width="300 "src="framework/img/web-browsers.jpg"/>
+            <p>This is an easy one, because you will already have it ready to go! A browser is a piece of software you install on your computer that lets you surf the web - like Chrome, Safari, Firefox, or Internet Explorer. </p>
+        </section>
+
+        <section class="slide title">
+            <h1>Now We're Ready To Code!</h1>
+            <h2>How Do We Turn Our Wireframe Into a Website?</h2>
+        </section>
+
+        <section class="slide">
+            <h2>Websites are made up of code that an web browser translates into images and text.</h2>
+            <p>Let's get a first hand look at this by copying some code into our Thimble, and see what happens!</p>
+        </section>
+
+        <section class="slide">
+           <h2>The Code</h2>
+            <p>You'll notice that your thimble already has some code in it!</p>
+            <img src="framework/img/empty-code.png" />
+        </section>
+
+        <section class="slide">
+            <h2>Your Browser Needs a lot of Help!</h2>
+            <img height="300" src="framework/img/computerscreen.png"/>
+            <p>Browsers are very smart in some ways, but not in others. We need to tell the browser exactly what we want to show on our website. We do this with HTML &amp; CSS.</p> 
+            <p><strong>The code you see in your Thimble is the first set of things the browser needs to know to make our website! These are called tags.</strong></p>
+        </section>
+
+
+         <section class="slide">
+            <img src="framework/img/presentation_Page_04.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_05.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_06.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_07.jpg">
+        </section>
+
+        <section class="slide">
+            <h2>Copy this code, and paste it between your</h2> <img src="framework/img/body-tags.png"/> <h2>tags and see what happens!</h2>
+            <pre><code>
+
+
+  <style>
+  
+  body {
+    background: url("background.jpg");
+    font-size: 18px;
+    font-family: helvetica;
+  }
+  
+  #maincontent {
+    background-color: #FFF;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    border: 3px solid #000;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #663300;
+  }
+  
+  p {
+    color: #00cccc;
+  }
+  
+  p.contact{
+    color: #33cc00;
+  }
+  
+  img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #welcome{
+    text-align: center;
+  }
+  
+  .kupcake{
+    width: 280px;
+    height: 280px;
+    overflow: scroll;
+    margin: 10px 5px 10px 5px;
+    border: 2px dashed #000;
+    float: left;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  #monster {
+    color: #ff0099;
+  }
+  
+  #bunny {
+    color: #ff9933;
+  }
+  
+  #turtle {
+    color: #9900cc;
+  }
+  
+  #footer {
+  text-align: center;
+  margin-bottom: 10px;
+  }
+  
+  </style>
+  
+  <div id="maincontent">
+  
+        <div id="welcome">
+          <center><img width="400" src="http://cakejournal.cakejournalllc.netdna-cdn.com/wp-content/uploads/2013/09/Mail-Attachment-copy-31.jpeg"></center>
+          <h1>Welcome to Kat's Kupcakes</h1>  
+        </div>
+        
+        <p>Hello my name is Kathryn and I sell the best cupcakes in town! They are unique and delicious and perfect for celebrating or a nice treat! Hello my name is Kathryn and I sell the best cupcakes in town! They are unique and delicious and perfect for celebrating or a nice treat! Hello my name is Kathryn and I sell the best cupcakes in town! They are unique and delicious and perfect for celebrating or a nice treat! Hello my name is Kathryn and I sell the best cupcakes in town! They are unique and delicious and perfect for celebrating or a nice treat!</p>
+        <p class="contact">To get in contact with me, please send an email to: kathryn@girlslearningcode.com</p>
+        
+        <div class="kupcake" id="monster">
+          Here is a preview of one of my amazing cupcakes! 
+          <img src="http://thecutebaker.files.wordpress.com/2014/05/creative-cupcakes-cupcakes-25977040-480-493.jpg" width="280" height="300">
+        </div>
+        
+        <div class="kupcake" id="bunny">
+          Here is a preview of one of my amazing cupcakes! 
+          <img src="http://goodtoknow.media.ipcdigital.co.uk/111/00000ccdc/ff0e/Easter-bunny-cupcakes.jpg" width="280" height="300">
+        </div>
+        
+        <div class="kupcake" id="turtle">
+          Here is a preview of one of my amazing cupcakes!
+          <img src="http://images2.fanpop.com/image/photos/14400000/turtle-cute-cupcakes-14480975-1728-1698.jpg" width="280" height="300">
+        </div>
+        
+        <div id="footer">
+          Created by Kathryn Barrett for Kids Learning Code 2013
+        </div>
+  
+  </div>  
+  
+  </body>
+  </html>
+            </pre>
+            </code>
+        </section>
+
+
+                 <!--SLIDE 7-->
+        <section class="slide">
+            <h2>First, We Need to Understand how the Internet Works</h2>
+            <img src="framework/img/internet-diagram.png"/>
+            <p>When you look at a website, you use a browser to ask for a file from a server.</p>
+        </section>
+
+        <section class = "slide">
+            <p>The server gives your browser a file that is written in code (like we just saw!):</p> 
+            <img width="400" src="framework/img/code.png">
+        </section>
+
+
+
+        <section class="slide">
+            <p>Next, your browser reads that HTML &amp; CSS code and turns it into this:</p>
+            <img src="framework/img/puppycomputer.png">
+            So now that we understand the basics, let's learn how to use HTML &amp; CSS to make our wireframes into websites!
+        </section>
+
+        <section class="slide title">
+            <h1>HTML</h1>
+        </section>
+
+         <section class="slide">
+            <img src="framework/img/presentation_Page_01.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_02.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_03.jpg">
+        </section>
+       
+        <section class="slide">
+            <img src="framework/img/presentation_Page_08.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_09.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_10.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_11.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_12.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_13.jpg">
+        </section>
+
+        <section class="title slide">
+            <h1>Lunch time!</h1>
+            <h2>After lunch, we'll review what we just learned about HTML, and start working with some CSS!</h2>
+        </section>
+
+
+    <section class="title slide">
+            <h1>a quick review!</h1>
+            <h2>Let's play the syntax shuffle, to re-visit what we learned about HTML!</h2>
+        </section>
+
+        <!--CSS SLIDES-->
+
+        <section class="slide">
+            <img src="framework/img/presentation_Page_14.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_15.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_16.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_17.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_18.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_19.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_20.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_21.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_22.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_23.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_24.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_25.jpg">
+        </section>
+                <section class="slide">
+            <img src="framework/img/presentation_Page_26.jpg">
+        </section>
+                <section class="slide">
+            <img src="framework/img/presentation_Page_27.jpg">
+        </section>
+                <section class="slide">
+            <img src="framework/img/presentation_Page_28.jpg">
+        </section>
+        <section class="slide">
+            <img src="framework/img/presentation_Page_29.jpg">
+        </section>
+
+        <section class="slide title">
+            <h1>Let's Work for the Rest of the DaY!</h1>
+        </section>
+
+        <section class="slide">
+            <h1>My Favorite Websites</h1>
+            <strong>For Learning to Code</strong>
+            <p><a href="http://teamtreehouse.com">Treehouse</a></p>
+            <strong>For Seeing Nice Web Designs</strong>
+            <p><a href="http://onepagelove.com">One Page Love</a></p>
+            <strong>For Great Content</strong>
+            <p><a href="amysmartgirls.com">Amy Poehler's Smart Girls at the Party</a></p>
+        </section>
+
+        <!-- Last slide -->
+        <section class="slide">
+            <h2>Thank you for learning to code with us!</h2>
+            <p class="attribution">Slide deck created with <a href="https://github.com/LeaVerou/csss">Lea Verou's CSS-based SlideShow System</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+        </section>
+
+    </main><!-- cls main section -->
+
+
+    <footer>
+        <p class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.svg" /></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="instructions">Use the left <i class="fa fa-arrow-left"></i> and right <i class="fa fa-arrow-right"></i> arrow keys to navigate</p>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="framework/scripts/slideshow.js"></script>
+
+    <!-- Uncomment the plugins you need -->
+    <script src="framework/scripts/plugins/css-edit.js"></script>
+    <script src="framework/scripts/plugins/css-snippets.js"></script>
+    <script src="framework/scripts/plugins/css-controls.js"></script>
+    <!-- <script src="plugins/code-highlight.js"></script>-->
+
+    <script src="framework/scripts/plugins/markdown/marked.js"></script>
+    <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+    <script src="framework/scripts/plugins/highlight/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script>
+        var slideshow = new SlideShow();
+
+        // Grabs all the .snippet elements
+        var snippets = document.querySelectorAll('.snippet');
+        for(var i=0; i<snippets.length; i++) {
+            new CSSSnippet(snippets[i]);
+        }
+
+        // Adds "edit me" note to editable code areas
+        jQuery(document).ready(function(){
+            jQuery(".snippet").before("<span class=\"edit\">edit me</span>");
+        });
+    </script>
+</body>
+</html>
