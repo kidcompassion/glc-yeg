@@ -1,0 +1,93 @@
+Hello everyone!
+
+My name is Melissa and I am a software developer! 
+
+I'm hear today to talk because your teacher thought you might like to hear about how I got into computer science and what I actually do on a day to day basis.
+
+->
+
+Well, to start off, I work for a company called iQmetrix in downtown Regina, in the FCC or goose building.
+
+-> 
+
+iQmetrix is one of the biggest software development companies in Regina, we have about 200 employees here, about 150 of which are developers.
+
+-> 
+
+Our main product, what we sell, is a point of sale software called RQ - if you've ever been to Cornwall mall or heard of Jump.ca? We make their website and the system they use to sell phones and accessories.
+
+-> 
+
+Talking about myself specifically, I am primarily a web developer, which means I make websites and web applications.
+
+I believe you guys have used JavaScript before? That's one of the languages I use on a daily basis, along with HTML and CSS, Ruby and C#.
+
+->
+
+But lets take a step back and talk about how I got into computer science. When I was your age, I had no idea Computer Science was a thing.
+
+I was quite confident I was going to be a pharmacist, because I chemistry and biology were my favorite classes.
+
+But then... One day my desktop publishing teacher pulled me aside and said "so, hey, how about Girls in Gaming?" of course I didn't really want to...
+
+I loved it.
+
+Then when I entered university I saw "intro to computer science" and decided to take it. 
+
+->
+
+The first year of CS was pretty easy, to be honest. It was mostly brand new things that I enjoyed greatly.
+
+I took...
+
+-> 
+
+Second year was very, very difficult. Second year university is the "weeding out" year, you usually have to take a full course load of heavy CS classes.
+
+I took...
+
+->
+
+However, make it to 3rd year and its much easier!
+
+I took...
+
+-> Finally, fourth year...
+
+I took...
+
+->
+
+I want to take this time to give advice:
+
+* NETWORKING!!! #1
+* Join coop - even if you have a job. My company hires coops 10x more then non-coop - 3 interviews vs 1 easy interview
+* Learn on your own - hackathons
+* Have a minor - dont do pure CS
+
+->
+
+Around this time I decided to join the coop program. It was the best decision I have ever made. 
+
+I did my first term at Manitoba Hydro.
+
+Talk about Hydra experience
+
+->
+
+Following, I did my second at iQmetrix and never left! Once I graduated I started full time.
+
+Years later, I have my own coop from the U of R, who I interviewed, trained and created a project for.
+
+-> 
+
+Day to day:
+* links
+* standup
+* iteration planning
+* retro
+* rest of day: working on tickets
+
+->
+
+Pros and cons:
